@@ -1,0 +1,38 @@
+.movies-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(17, 24, 39, 1);
+    color: rgba(243, 244, 246, 1);
+  }
+  
+  .movie-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(31, 41, 55, 1);
+    border-radius: 0.75rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+  }
+  
+  .movie-poster {
+    width: 200px;
+    border-radius: 0.5rem;
+  }
+  
+  .movie-title {
+    font-size: 1.5rem;
+    color: rgba(167, 139, 250, 1);
+    margin: 0.5rem 0;
+  }
+  
+  .movie-overview {
+    font-size: 0.875rem;
+    color: rgba(243, 244, 246, 1);
+    text-align: center;
+  }
+  

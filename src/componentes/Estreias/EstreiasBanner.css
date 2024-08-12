@@ -1,0 +1,30 @@
+/* src/componentes/Estreias/EstreiasBanner.css */
+.estreias-banner {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+  
+  .estreias-marquee {
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+  }
+  
+  .estreia-item {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 1.2em;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

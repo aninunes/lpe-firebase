@@ -1,0 +1,28 @@
+/* Variáveis de CSS */
+:root {
+  --bg-dark: #0d0d0d;
+  --bg-darker: #0a0a0a;
+  --primary-color: #39ff14; /* Neon Green */
+  --secondary-color: #0affaf; /* Neon Cyan */
+  --accent-color: #ff073a; /* Neon Red */
+  --text-light: #e0e0e0;
+  --text-dark: #333;
+  --btn-bg: #39ff14;
+  --btn-bg-hover: #0affaf;
+  --btn-color: #0d0d0d;
+  --btn-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --card-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
